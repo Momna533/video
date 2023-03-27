@@ -1,0 +1,66 @@
+/*body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: 100vh;
+    position: relative;
+}
+.video_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+.container::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index:-1;
+}
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: visible;
+    z-index: 999;
+}
+.hide_preloader{
+    z-index: 999;
+    visibility: hidden;
+}*/
+.container{
+    position: relative;
+    min-height: 100vh;
+}
+.video_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+.preloader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: visible;
+    z-index: 999;
+}
+.hide_preloader{
+    visibility: hidden;
+    z-index: -999;
+}
